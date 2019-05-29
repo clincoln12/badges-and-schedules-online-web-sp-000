@@ -23,7 +23,7 @@ def printer(attendees)
   batch_badge_creator(attendees).each { |x| puts x }
 end
 
-attendees = ['Edsger', 'Matz']
+asshole = ['Edsger', 'Matz']
 
-printer(attendees)
+printer(asshole)
 
